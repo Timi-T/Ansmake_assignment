@@ -23,7 +23,7 @@ def createTask(request):
     if name and email:
         new_task = Task(**info)
         new_task.save()
-    return HttpResponse()
+    return HttpResponse(new_task.name)
 
 def viewTasks(request):
     """Function to view all tasks"""

@@ -27,6 +27,8 @@ pep8==1.7.1
 pipenv==2022.5.2
 platformdirs==2.5.2
 protobuf==3.19.4
+psycopg==3.0.14
+psycopg2==2.9.3
 pycodestyle==2.8.0
 pycparser==2.21
 pyrsistent==0.18.1
