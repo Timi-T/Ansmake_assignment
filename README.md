@@ -7,10 +7,10 @@
     <ul>
         <li>Clone this repository to your local machine</li>
         <li>Navigate into the root directory of the repository</li>
-        <li>pip install virtualenv (if you don't already have virtualenv installed)</li>
-        <li>virtualenv venv to create your new environment (called 'venv' here)</li>
+        <li>Run command 'pip install virtualenv' (if you don't already have virtualenv installed)</li>
+        <li>Run command 'virtualenv venv' to create your new environment (called 'venv' here)</li>
         <li>Run command 'source venv/bin/activate' to enter the virtual environment</li>
-        <li>pip install -r requirements.txt</li>
+        <li>Run command 'pip install -r requirements.txt' to install all the dependencies</li>
     </ul>
     <h3>Setup environment</h3>
     <p>Run command 'python3 manage.py makemigrations' to setup the database</p>
