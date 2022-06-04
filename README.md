@@ -1,5 +1,5 @@
 <h2>Getting started</h2>
-<div style="background-color: grey">
+<div>
     <h3>Dependencies</h3>
     <p>Check requirements.txt file for dependencies</p>
     <p>It is adviceable you setup a python virtual environment to run this project</p>
@@ -29,6 +29,7 @@
     <br/>
     <p>To get all the tasks in the database, you can either use the browser on your local machine
     or the cURL tool on your command line.</p>
-    <p>To use your browser, simply visit the url '127.0.0.1/task/all'<p>
+    <p>To use your browser, simply visit the url '127.0.0.1:8000/task/all'<p>
     <p>To use cURL</p>
     <p>curl 127.0.0.1:8000/task/all</p>
+    <p>Again make sure to change the port number if you are using a different port for the server</p>
